@@ -107,7 +107,7 @@ export function FormikStepper({children, ...props}) {
   const handleOnSubmit = (values, actions) => {
     axios({
       method: 'POST',
-      url: 'https://translation-server-try1.herokuapp.com/orders',
+      url: 'http://translation-server-try1.herokuapp.com/orders',
       headers: {
         'Content-Type': 'application/json',
       },
