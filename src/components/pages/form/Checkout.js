@@ -106,7 +106,7 @@ export function FormikStepper({children, ...props}) {
   const handleServerResponse = (ok, msg) => setServerState({ok, msg})
   const handleOnSubmit = (values, actions) => {
     Axios.post("https://translation-server-try1.herokuapp.com/orders", {
-      data: values,
+      data: values
     })
       .then(response => {
         console.log(response)
