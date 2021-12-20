@@ -188,7 +188,7 @@ export function FormikStepper({children, ...props}) {
                             disabled={isSubmitting} 
                             className={classes.button} 
                             color="primary" 
-                            variant="contained" 
+                            variant="contained"
                             type="submit"
                           >
                             {isSubmitting ? 'Enviando' : isLastStep() ? "Enviar" : "Siguiente" }
