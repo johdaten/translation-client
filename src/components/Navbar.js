@@ -37,7 +37,7 @@ function Navbar() {
                 >
                 <div className='navbar-container'>
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                            <span className='logo-title'>DOMINGO</span>
+                            <span className='logo-title'>DUALECTO</span>
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className='react-icons'>{click ? <BsXSquareFill/> : <GiHamburgerMenu/>}</i>
