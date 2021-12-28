@@ -15,7 +15,7 @@ const Contactos = () => {
                     <span className="whatsapp-link link"> 0992314818</span>
                     <br/>
                     <MdEmail className="email-icon"/> email: 
-                    <span className="email-link link"> domingo.abcxyz@gmail.com</span> 
+                    <span className="email-link link"> dualectosa@gmail.com</span> 
                     <br/>
                     o envíe un archivo a continuación.
                     </p>
